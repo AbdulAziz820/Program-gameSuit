@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    background-image: url(../assets/img/bg.png);
+}
+
+.judul {
+    border: 3px solid black;
+    width: 400px;
+    padding: 10px 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 1px 2px 3px rgba(5,5,5,80%);
+    margin: 10px auto;
+    background-color: lightgoldenrodyellow;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.stop {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    border: 4px solid green;
+    border-radius: 30px;
+    width: 100px;
+    height: 60px;
+    background-color: greenyellow;
+    position: fixed;
+    z-index: 9999;
+    top: 40%;
+    right: 27%;
+}
+
+.stop:hover {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 20%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 100%);
+}
+
+.container {
+    width: 700px;
+    margin: 30px auto;
+    background-color: lightskyblue;
+    position: relative;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 7px rgba(0,0,0,40%);
+}
+
+.area-com {
+    border-bottom: 3px dashed red;
+    width: 700px;
+    height: 250px;
+    background-color: #eaeaea;
+    margin: auto;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.hasil-main {
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 1px 3px rgba(0,0,0,30%);
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: coral;
+    border: 7px solid lightblue;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    margin-top: -45px;
+    left: 39%;
+    box-shadow: 0 0 3px 4px rgba(0,0,0,30%);
+}
+
+.area-player {
+    border-top: 3px dashed red;
+    width: 700px;
+    height: 250px;
+    background-color: #eaeaea;
+    margin: auto;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+div.area-com img {
+    margin-top: 20px;
+}
+
+div.area-player ul li {
+    float: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+ul.player li:hover {
+    box-shadow: 0 0 5px 6px rgba(0,100,0,60%);
+}
+
+div.area-com img {
+    border-radius: 50%;
+    background-color: red;
+}
+div.area-com img:hover {
+    box-shadow: 0 0 5px 6px rgba(200,0,0,60%);
+}
+
+.clear {
+    clear: both;
+}
